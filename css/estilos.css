@@ -1,0 +1,232 @@
+.redes-container{
+    display: flex;
+    height: 100px;
+    width: 780px;
+    float: right;
+    justify-content: center;
+    margin-right: -215px;
+    margin-top: -85px;
+}
+
+.redes-container ul li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.redes-container ul li a{
+    display: block;
+    padding: o 10px;
+    line-height: 50px;
+    font-size: 30px;
+    box-shadow: 0 3px 5px opx rgba(0, 0, 0, .2);
+    transition: .2s;
+    
+}
+
+
+.redes-container ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px opx rgba(0, 0, 0, .4);
+    filter: none;
+}
+
+.instagram{
+    color: #e4405f;
+}
+
+.facebook{
+    color: #3b5999;
+}
+
+.youtube{
+    color: red;
+}
+
+
+/* Desde aca el diseño deja de ser sobre los botones de redes sociales*/
+
+
+.logos-info{
+    float: right;
+    padding-right: 270px;
+    margin-top: -192px;
+    
+}
+
+.logos-info ul li{
+    display: grid;
+}
+
+.datos-logos{
+    margin-top: -178px;
+    padding-right: 40px;
+    text-align: right;
+}
+
+.ubicacion{
+    color: red;
+    padding-bottom: 17px;
+}
+
+#d1{
+    margin-right: -10px;
+}
+
+#p2{
+    margin-right: 102px;
+}
+
+#p3{
+    margin-right: 110px;
+}
+
+#m1{
+    margin-right: 10px;
+}
+
+.logos-info ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px opx rgba(0, 0, 0, .4);
+    filter: none;
+}
+
+
+
+/* Desde aca el diseño deja de ser sobre los logos de informacion de contacto*/
+
+
+
+
+#principal{
+    background-color: #EFEFEF  ;
+    border: solid 2px black;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#banda-de-color{
+    margin-top: 40px;
+    background-color: #B6B6B6;
+    width: 1112px;
+    height: 260px;
+}
+
+fieldset{
+    font-family: 'Amiri', serif;
+    width: 40%;
+    margin-left: 60px;
+    background-color: #B6B6B6;
+    border: dotted 3px;
+}
+
+legend{
+    font-family: 'Caveat', cursive;
+    border: solid 3px #3F4BE1;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    background: #C2FFCD;
+}
+
+#Estudios{
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+#foto{
+    margin-left: 60px;
+    margin-top: 20px;
+    border-radius: 50%;
+    
+}
+
+#titulo{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    margin-top: -150px;
+   
+}
+
+#trabajo{
+    font-family: 'Yellowtail', cursive;
+    text-align: center;
+}
+
+#trayectoria{
+    font-family: 'Bakbak One', cursive;
+    font-size: 15px;
+    width: 350px;
+    height: 468px;
+    float: right;
+    margin-right: 70px;
+    margin-top: 2px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 150px;
+
+}
+
+#trayectoria2{
+    text-align: center;
+}
+
+#Img{
+    display: none;
+}
+
+#boton{
+    padding: 10px;
+    border: 3px solid green;
+    background-color: greenyellow;
+    margin-top: 20px;
+    font-family: 'Rubik 80s Fade', cursive;
+
+    
+}
+
+#video{
+    border-bottom: dotted 5px greenyellow;
+    border-top: 5px dashed green;
+    border-right: yellow double 5px;
+    border-left: 5px groove aquamarine;
+    float: right;
+    margin-top: -500px;
+    margin-right: -550px;
+}
+
+#Escuela{
+    border: solid 2px violet;
+    background-color: pink;
+    padding: 7px;
+    font-family: 'Rubik Gemstones', cursive;
+
+}
+
+#Escuela2{
+    border: solid 2px violet;
+    background-color: pink;
+    padding: 7px;
+    font-family: 'Rubik Gemstones', cursive;
+
+}
+
+#demo{
+    font-family: 'Bakbak One', cursive;
+}
+
+#Actuales{
+    margin-top: 90px;
+    text-align: center;
+}
+
+#Actuales2{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
